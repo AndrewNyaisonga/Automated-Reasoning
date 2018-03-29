@@ -1,18 +1,17 @@
-Andrew Nyaisonga				                            
+				                            
+# Automated Reasoning
 
-Automated Reasoning
-
-Program
+## Program
 This program uses a lot of design choices by Professor Ferguson. The blueprint of his code is all over the program. It has 4 main packages, ‘cnf’,’Computation’,’core’ and ‘examples’.  
-Core: deals with the representation of propositional logic and it has
+### Core: deals with the representation of propositional logic and it has
     KB(Knowledge Base)  which holdes premises of the specified word.
     Connective: This are connectors to the sentences AND, OR and urinary  like Negation.	
     Symbols: propositions that are true or false
     Sentence: Make of Symbols
     Compound Sentences: Make of small sentences with connectives-Urinary for negations and Binary for other connectives 
     Model: Assign the truth value of the sentences
-cnf: This has methods like 
-CNF Converter which converts any sentence to conjunctive normal form. This is extra important on using resolution
+### cnf: This has methods like 
+### CNF Converter which converts any sentence to conjunctive normal form. This is extra important on using resolution
      Closure: Used in Resolution to iterate through literals when resolving two clauses
      Literals: Negation of the symbol or the symbol itself 
 Computation: This is the most important package of the whole project. It contains:
